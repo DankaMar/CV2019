@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact me</title>
+</head>
+
+<body>
+  <h1>My Contact details</h1>
+  <p>Based in Dublin, Ireland</p>
+  <p> Contact me
+    <a href="https://www.instagram.com/dankaindublin/" target="_blank">Instagram</a>
+  </p>
+  <style>
+    a:link,
+    a:visited {
+      background-color: #4be3ac;
+      color: white;
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    a:hover,
+    a:active {
+      background-color: red;
+    }
+  </style>
+  <hr>
+  <form action="mailto:robingoesplaces@gmail.com?subject=Current-issue&body=send%20current-issue" method="post" enctype="text/plain">
+    <label>Your name:</label>
+    <input type="text" name="YourName" value=""><br>
+    <label>Your email:</label>
+    <input type="email" name="YourEmail" value=""><br>
+    <label>Your Message:</label>
+    <textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+    <input type="submit" name="">
+  </form>
+  <a href="index.html">Go back to the main page</a>
+</body>
+
+</html>
